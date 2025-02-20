@@ -1,0 +1,12 @@
+import AdminLayout from "@/components/admin/AdminLayout";
+import Settings from "@/pages/admin/Settings";
+
+const AdminSettingsStory = () => {
+  return (
+    <AdminLayout>
+      <Settings />
+    </AdminLayout>
+  );
+};
+
+export default AdminSettingsStory;
